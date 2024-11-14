@@ -1,0 +1,45 @@
+.logo {
+  width: 200px;
+  margin-right: 24px;
+}
+
+.logo img {
+  width: inherit;
+}
+.search-bar {
+  display: flex;
+  width: 80%;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.ad-banner {
+  width: 80%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.ad-banner img {
+  width: 100%;
+  border-radius: 8px;
+  height: 350px;
+  object-fit: cover;
+}
